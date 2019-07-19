@@ -33,14 +33,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Every Chat App</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>everychat.app</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
+	<figcaption>Compare *all* of the chat apps.</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Click on "apps" at the top to get comparing.</strong></p>
