@@ -8,11 +8,38 @@
         "ios": 2,
         "android": 2
     },
-    "e2ee": 1,
-    "oss": 1,
-    "stickers": 2,
-    "gif": true,
-    "groups": true,
-    "group_size": 100000,
-    "mentions": true
+    "fun": {
+        "stickers": 2,
+        "gif": true,
+        "games": 2,
+        "emoji": 1
+    },
+    "privacy": {
+        "e2ee": 1,
+        "oss": 1
+    },
+    "customization": {
+        "themes": 2,
+        "plugins": 0
+    },
+    "chat_functions": {
+        "groups": true,
+        "group_size": 100000,
+        "mentions": true,
+        "@everyone": false,
+        "voice": 1,
+        "video": 1,
+        "deletion": 2,
+        "voice_messages": true,
+        "text_formatting": 2
+    },
+    "media": {
+        "files": true,
+        "file_size": "1.5 GB",
+        "file_limitations": "None",
+        "photo": true,
+        "video": true,
+        "location": true,
+        "contact": true
+    }
 }

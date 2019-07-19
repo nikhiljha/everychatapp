@@ -1,0 +1,45 @@
+{
+    "name": "Telegram", // Full name with Unicode characters and spaces.
+    "slug": "telegram", // URL path, lowercase ASCII only
+    "platform_support": { // 2 => Native App, 1 => JavaScript/Beta/Undercooked App, 0 => Not Supported
+        "windows": 2,
+        "macos": 2,
+        "linux": 2,
+        "ios": 2,
+        "android": 2
+    },
+    "fun": {
+        "stickers": 2, // 2 => Custom, 1 => Preset, 0 => No
+        "gif": true,
+        "games": 2, // 2 => Custom, 1 => Preset, 0 => No
+        "emoji": 1 // 2 => Custom, 1 => Preset, 0 => No
+    },
+    "privacy": {
+        "e2ee": 1, // 2 => By Default, 1 => Optional, 0 => No
+        "oss": 1 // 2 => Server + Apps are OSS, 1 => Apps are OSS, 0 => No
+    },
+    "customization": {
+        "themes": 2, // 2 => Custom, 1 => Preset, 0 => No
+        "plugins": 0 // 2 => Extensive, 1 => Limited, 0 => No
+    },
+    "chat_functions": {
+        "groups": true,
+        "group_size": 100000, // Maximum
+        "mentions": true, // Can you @ people
+        "@everyone": false,
+        "voice": 1, // 2 => Group, 1 => DM, 0 => No
+        "video": 1, // 2 => Group, 1 => DM, 0 => No
+        "deletion": 2, // 2 => Always + Perma Delete, 1 => Restricted Delete, 0 => No Delete
+        "voice_messages": true,
+        "text_formatting": 2 // 2 => Yes, 1 => Restricted, 0 => No
+    },
+    "media": {
+        "files": true, // Can you send generic files
+        "file_size": "1.5 GB", // Max file size
+        "file_limitations": "None", // Human readable limitations (e.x. "no executable files")
+        "photo": true,
+        "video": true,
+        "location": true,
+        "contact": true // Can you share contact info
+    }
+}
