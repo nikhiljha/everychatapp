@@ -1,5 +1,18 @@
 {
     "name": "Telegram",
     "slug": "telegram",
-    "e2ee": 1
+    "platform_support": {
+        "windows": 2,
+        "macos": 2,
+        "linux": 2,
+        "ios": 2,
+        "android": 2
+    },
+    "e2ee": 1,
+    "oss": 1,
+    "stickers": 2,
+    "gif": true,
+    "groups": true,
+    "group_size": 100000,
+    "mentions": true
 }
