@@ -16,7 +16,10 @@
     },
     "privacy": {
         "e2ee": 1,
-        "oss": 1
+        "oss": 1,
+        "federated": false,
+        "decentralized": false,
+        "funding": 1
     },
     "customization": {
         "themes": 2,

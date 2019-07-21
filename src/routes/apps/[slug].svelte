@@ -61,5 +61,5 @@
 
 <div class='content'>
 	<!-- TODO: Make it actually generate some kind of details view. -->
-	{data.e2ee}
+	{data.media.file_size}
 </div>

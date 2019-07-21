@@ -11,9 +11,20 @@
 </script>
 
 <style>
-	ul {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
+	.container {
+		display: grid;
+		grid-auto-rows: auto;
+		grid-auto-columns: auto;
+		grid-gap: 1.5rem;
+	}
+
+	.icon {
+		height: 2rem;
+		width: 2rem;
+	}
+
+	.link {
+		vertical-align: top;
 	}
 </style>
 
@@ -23,12 +34,11 @@
 
 <h1>All Apps</h1>
 
-<ul>
+<div class="container">
 	{#each apps as app}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-		<li><a rel='prefetch' href='apps/{app}'>{app}</a></li>
+		<div>
+            <img class="icon" src='/logo/{app.slug}.svg' alt="{app.display} Logo">
+            <a class="link" href="/apps/{app.slug}">{app.display}</a>
+        </div>
 	{/each}
-</ul>
+</div>
