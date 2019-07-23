@@ -138,13 +138,21 @@
 	.content :global(li) {
 		margin: 0 0 0.5em 0;
 	}
+
+	.icon {
+		position: relative;
+		top: 12px;
+		padding-right: 1rem;
+		height: 3rem;
+		width: 3rem;
+	}
 </style>
 
 <svelte:head>
 	<title>{data.name} | Every Chat App</title>
 </svelte:head>
 
-<h1>{data.name}</h1>
+<h1><img class="icon" src='/logo/{data.slug}.svg' alt="{data.name} Logo"> {data.name}</h1><br>
 
 <div class='content'>
 	<!-- TODO: Make the details view prettier. -->

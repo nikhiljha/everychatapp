@@ -20,6 +20,7 @@
 
 	.icon {
 		position: relative;
+		padding-right: 0.5rem;
 		top: 12px;
 		height: 2rem;
 		width: 2rem;
