@@ -1,6 +1,6 @@
 {
     "name": "Facebook Messenger",
-    "slug": "messenger",
+    "slug": "fbmessenger",
     "platform_support": {
         "windows": 2,
         "macos": 1,
