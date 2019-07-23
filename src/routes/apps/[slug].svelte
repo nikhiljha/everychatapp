@@ -87,6 +87,17 @@
 
 		return "Error"
 	}
+
+	function scale3(val) {
+		switch (val) {
+			case 2:
+				return "✅"
+			case 1:
+				return "🤔"
+			case 0:
+				return "❌"
+		}
+	}
 </script>
 
 <script>
