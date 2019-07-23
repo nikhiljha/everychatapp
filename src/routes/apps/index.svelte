@@ -19,12 +19,15 @@
 	}
 
 	.icon {
+		position: relative;
+		top: 12px;
 		height: 2rem;
 		width: 2rem;
 	}
 
 	.link {
-		vertical-align: top;
+		position: relative;
+		vertical-align: middle;
 	}
 </style>
 
