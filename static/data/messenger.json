@@ -1,6 +1,6 @@
 {
-    "name": "FaceBook Messenger",
-    "slug": "facebook messenger",
+    "name": "Facebook Messenger",
+    "slug": "messenger",
     "platform_support": {
         "windows": 2,
         "macos": 1,
@@ -29,7 +29,7 @@
         "groups": true,
         "group_size": 250,
         "mentions": true,
-        "@everyone": false,
+        "ateveryone": false,
         "voice": 2,
         "video": 2,
         "deletion": 2,
