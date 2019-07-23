@@ -19,7 +19,8 @@
         "oss": 1,
         "federated": false,
         "decentralized": false,
-        "funding": 1
+        "funding_rating": 1,
+        "funding_source": "Pavel Durov"
     },
     "customization": {
         "themes": 2,

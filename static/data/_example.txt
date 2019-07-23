@@ -26,7 +26,7 @@
         "groups": true,
         "group_size": 100000, // Maximum
         "mentions": true, // Can you @ people
-        "@everyone": false,
+        "ateveryone": false,
         "voice": 1, // 2 => Group, 1 => DM, 0 => No
         "video": 1, // 2 => Group, 1 => DM, 0 => No
         "deletion": 2, // 2 => Always + Perma Delete, 1 => Restricted Delete, 0 => No Delete
