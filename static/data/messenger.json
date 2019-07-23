@@ -1,0 +1,48 @@
+{
+    "name": "FaceBook Messenger",
+    "slug": "facebook messenger",
+    "platform_support": {
+        "windows": 2,
+        "macos": 1,
+        "linux": 1,
+        "ios": 2,
+        "android": 2
+    },
+    "fun": {
+        "stickers": 1,
+        "gif": true,
+        "games": 1,
+        "emoji": 1
+    },
+    "privacy": {
+        "e2ee": 0,
+        "oss": 0,
+        "federated": false,
+        "decentralized": false,
+        "funding": 0
+    },
+    "customization": {
+        "themes": 1,
+        "plugins": 0
+    },
+    "chat_functions": {
+        "groups": true,
+        "group_size": 250,
+        "mentions": true,
+        "@everyone": false,
+        "voice": 2,
+        "video": 2,
+        "deletion": 2,
+        "voice_messages": true,
+        "text_formatting": 2
+    },
+    "media": {
+        "files": true,
+        "file_size": "25 MB",
+        "file_limitations": "None",
+        "photo": true,
+        "video": true,
+        "location": true,
+        "contact": true
+    }
+}
