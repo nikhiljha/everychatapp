@@ -1,0 +1,18 @@
+{
+    "name": "everychatapp",
+    "profile": "everychatapp",
+    "regions": ["us-west-2"],
+    "hooks": {
+      "build": [
+        "npm run build"
+      ]
+    },
+    "stages": {
+      "production": {
+        "domain": "everychat.app"
+      },
+      "staging": {
+        "domain": "staging.everychat.app"
+      }
+    }
+  }
